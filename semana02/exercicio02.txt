@@ -1,0 +1,20 @@
+a) Liste e descreva o que são as 4 etapas do processo de compilação.
+
+- Pré-processamento: Análise geral do código, inclusão de arquivos, expansão de macros e análise sintática, léxica e semântica.
+- Compilação: O código é compilado e transformado em assembly
+- Construção: O código em assembly é transformado em código objeto, esse código em binário já pode ser interpretado pelo computador
+- Linkagem: A linkagem é a etapa onde são importados os arquivos das bibliotecas necessários para a interpretação do código
+
+b) O compilador gcc permite fornecer parâmetros extras, que modificam desde a emissão de erros até o binário final, o otimizando para determinados comportamentos. Explique a função dos seguintes parâmetros:
+
+i) -static: Impede que o código compilado seja linkado com bibliotecas compartilhadas em sistemas que permitem linkagem dinâmica.
+
+ii) -g: Inclui o log geral de debug do arquivo binário.
+
+iii) -pedantic: Emite todos os avisos requeridos pelo padrão ANSI/ISO C
+
+iv) -Wall: Emite todos os avisos geralmente uteis que o gcc é capaz de emitir
+
+v) -Os: Acusa variáveis que podem não estar inicializadas
+
+vi) -O3: Otimiza o código para o maior nível de otimização possível (3).
